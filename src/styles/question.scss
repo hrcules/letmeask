@@ -1,0 +1,127 @@
+.question {
+  background: var(--details);
+  border-radius: 8px;
+  box-shadow: 0 2px 12px var(--shadow);
+  padding: 24px;
+
+  & + .question {
+    margin-top: 0.5rem;
+  }
+
+  &.highlighted {
+    background: var(--highlighted);
+    border: 1px solid #835afd;
+
+    footer .user-info span {
+      color: var(--black);
+    }
+  }
+
+  &.answered {
+    background: var(--answered);
+  }
+
+  p {
+    color: var(--black);
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+
+    .user-info {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 2.25rem;
+        height: 2.25rem;
+        border-radius: 50%;
+      }
+
+      span {
+        margin-left: 0.5rem;
+        color: var(--gray-dark);
+        font-size: 1rem;
+      }
+    }
+
+    > div {
+      display: flex;
+      gap: 1rem;
+    }
+
+    button {
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+      
+      &.like-button {
+        display: flex;
+        align-items: flex-end;
+        color: var(--gray-dark);
+        gap: 0.5rem;
+        transition: 0.2s;
+
+        svg {
+          width: 1.8rem;
+          height: 1.8rem;
+        }
+
+        &:hover {
+          svg path {
+            stroke: #835afd;
+          }
+        }
+
+        &.liked {
+          color: #835afd;
+
+          svg path {
+            stroke: #835afd;
+          }
+        }
+      }
+
+      &.check-button {
+
+        svg {
+          width: 1.8rem;
+          height: 1.8rem;
+        }
+
+        &:hover{
+          svg circle, path {
+            stroke: #835afd;
+          }
+        }
+      }
+      &.highlight-button {
+        svg {
+          width: 1.8rem;
+          height: 1.8rem;
+        }
+
+        &:hover{
+          svg path {
+            stroke: #835afd;
+          }
+        }
+      }
+      &.remove-button {
+        svg {
+          width: 1.8rem;
+          height: 1.8rem;
+        }
+
+        &:hover{
+          svg path {
+            stroke: #D73754;
+          }
+        }
+      }
+    }
+  }
+}

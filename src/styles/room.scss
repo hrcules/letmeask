@@ -1,0 +1,143 @@
+#page-room {
+  header {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--gray-dark);
+
+    .content {
+      max-width: 70rem;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      > img {
+        max-height: 3rem;
+      }
+
+      > div {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        .theme {
+        box-shadow: 0 2px 5px var(--shadow);
+        }
+
+        button {
+          height: 3rem;
+        }
+      }
+    }
+  }
+
+  main {
+    max-width: 50rem;
+    margin: 0 auto;
+
+    .room-title {
+      margin: 2rem 0 1.5rem;
+      display: flex;
+      align-items: center;
+
+      h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        color: var(--black);
+      }
+
+      span {
+        margin-left: 1rem;
+        background: #e559f9;
+        border-radius: 9999px;
+        padding: 0.5rem 1rem;
+        color: #fff;
+        font-weight: 500;
+        font-size: 0.8rem;
+      }
+    }
+
+    form {
+      textarea {
+        width: 100%;
+        color: var(--black);
+        border: 0;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        background: var(--details);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+        resize: vertical;
+        min-height: 8rem;
+      }
+
+      textarea:focus {
+        outline: none !important;
+        border: 1px solid #835afd;
+      }
+
+      .form-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+
+        .user-info {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+          }
+
+          span {
+            margin-left: 0.5rem;
+            color: var(--black);
+            font-weight: 500;
+            font-size: 1rem;
+          }
+        }
+
+        > span {
+          font-size: 0.8rem;
+          color: var(--gray-dark);
+          font-weight: 500;
+
+          button {
+            background: transparent;
+            border: 0;
+            color: #835afd;
+            text-decoration: underline;
+            font-size: 0.8rem;
+            font-weight: 500;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .question-list {
+      margin-top: 2rem;
+    }
+
+    .question-empty {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      margin-top: 6rem;
+
+      strong {
+        margin-top: 1.125rem;
+        font: 500 1.55rem 'Poppins', sans-serif;
+        color: var(--black);
+      }
+
+      p {
+        margin-top: 0.5rem;
+        font: 400 1.1rem 'Roboto', sans-serif;
+      }
+    }
+  }
+}

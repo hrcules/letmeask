@@ -1,0 +1,10 @@
+[] adicionar o modal de encerramento de sala
+[] adicionar o modal de excluir uma pergunta
+[] adicionar toasts
+  [x] sala encerrada
+  [x] sala inexistente
+  [] sala criada
+  [x] pergunta excluida
+[x] adiconar o hover nos icons das perguntas
+[] adicionar o tema dark (aprendido // colocar em prática)
+[] encrementar o funcionamento em pwa (aprender)

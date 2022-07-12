@@ -1,0 +1,41 @@
+.room-code {
+  height: 2.5rem;
+  border-radius: 10px;
+  overflow: hidden;
+
+  background: var(--background);
+  border: 1px solid #835afd;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  div {
+    background: #835afd;
+    padding: 1rem 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: filter 0.2s;
+
+    svg {
+      width: 1.4rem;
+      height: 1.4rem;
+    }
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+
+  span {
+    display: block;
+    align-self: center;
+    flex: 1;
+    padding: 0 1rem 0 0.75rem;
+    width: 17.5rem;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

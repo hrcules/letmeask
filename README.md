@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+<img src="public/letmeask-banner.png">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/hrcules/letmeask?color=e559f9">
 
-## Available Scripts
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
 
-In the project directory, you can run:
+## 💻 Sobre o projeto
 
-### `yarn start`
+> <b>Letmeask</b> é um projeto Front-End criado utilizando ReactJS, Firebase authentication e RealtimeDB, TypeScript, SASS e Styled-Components durante a NLW#6 da [Rocketseat](https://github.com/Rocketseat) com a adição de outras funcionalidades.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<div align="center">
+  <sub>O <strong>Letmeask</strong> foi desenvolvido com ❤︎ pelo
+    <a href="https://github.com/hrcules">Hércules Filho</a>
+  </sub>
+</div>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠 Tecnologias
 
-### `yarn test`
+As seguintes ferramentas foram usadas na construção do projeto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Firebase](https://firebase.google.com/)
+- [Sass](https://sass-lang.com/)
+- [Styled-Componentes](https://styled-components.com/)
 
-### `yarn build`
+## 🚀 Como executar o projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+💡 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [GIT](https://git-scm.com), [Yarn](https://yarnpkg.com/). Além disso é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🎲 Rodando a aplicação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone este repositório
+$ git clone https://github.com/hrcules/letmeask
 
-### `yarn eject`
+# Acesse a pasta do projeto no terminal/cmd
+$ cd moveit
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Instale as dependências
+$ yarn
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Execute a aplicação em modo de desenvolvimento
+$ yarn start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# O servidor inciará na porta:3000 - acesse http://localhost:3000
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📝 Licença
 
-## Learn More
+Este projeto esta sobe a licença MIT.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![ Emblema do Linkedin ](https://img.shields.io/badge/-hrcules-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://linkedin.com/in/hércules-filho-5259b3238/)
+![ Selo do Gmail ](https://img.shields.io/badge/-dev.hrcules@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:dev.hrcules@gmail.com)
